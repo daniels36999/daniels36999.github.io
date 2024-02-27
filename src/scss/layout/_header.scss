@@ -1,0 +1,12 @@
+@use 'base/variables' as va;
+
+.header{
+    background-color: va.$negro_bg;
+    padding: 1rem 0 5rem 0;
+
+    &.inicio{
+        background-position: center center;
+        background-size: cover;
+
+    } 
+}

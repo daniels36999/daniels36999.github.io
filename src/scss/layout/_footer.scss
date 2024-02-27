@@ -1,0 +1,104 @@
+@use 'base/variables' as va;
+
+.footer{
+    background-image: url(../img/footer.jpg);
+    font-family: va.$fuente_secundaria;
+}
+
+.footer-container-1{
+    background-color:va.$negro_bg;
+    padding: 5rem 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3rem;  
+
+    h1, h2{
+        color:va.$naranja;
+        margin: 0 0 3rem 0;
+    }
+
+    h2{
+        font-size: 2.5rem;
+    }
+
+    p, a{
+        color: va.$blanco;
+        margin: 0;
+        text-align: justify;
+    }
+
+    .footer-information{
+        //background-color:green;
+        padding: 0 2rem;
+
+        //BLOQUE 1-----------------
+        .social{
+            display: flex;
+            margin: 2rem 0;
+            gap: 1rem;
+            justify-content: center;
+
+            a{
+                line-height: 0;
+            }
+        
+            .social-btn{
+                display: flex;
+                border: 2px solid va.$gris;
+                border-radius: 10%;
+                justify-content: center;
+                align-items: center;
+
+                &:hover{
+                    cursor: pointer;
+                }
+
+                svg{
+                    padding: 0.3rem;
+                    stroke: va.$gris;
+                }
+            }
+        }
+
+        //BLOQUE 2-----------------
+        .footer-address{
+            display: flex;
+            gap: 2rem;
+            padding-bottom: 1rem;
+            svg{
+                stroke: va.$gris;
+                width: 30px; 
+                height: 30px; 
+            }
+        }
+
+        //BLOQUE 3-----------------
+        .footer-links{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            a{
+                font-size: 2rem;
+                &:hover{
+                    cursor: pointer;
+                }
+            }          
+        }
+    }
+}
+
+.footer-container-2{
+    background-color: va.$negro;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+    p, a{
+        color: va.$blanco;
+        font-family: va.$fuente_terciaria;
+    }
+    
+    
+}
+
+

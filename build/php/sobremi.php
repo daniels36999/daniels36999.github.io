@@ -1,13 +1,9 @@
 <?php
-    require 'includes/funciones.php';
+    require '../../includes/funciones.php';
     incluirTemplate('header',$inicio = true);
 ?>
-
-    <h1>Portafolio Digital</h1>
+    <h1>Sobre Mi</h1>
 
 <?php
     incluirTemplate('footer');
 ?>
-
-
-

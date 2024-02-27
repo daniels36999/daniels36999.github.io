@@ -1,0 +1,39 @@
+{
+  "name": "daniels36999.github.io",
+  "version": "1.0.0",
+  "description": "Portafolio - Daniels",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniels36999/daniels36999.github.io.git"
+  },
+  "keywords": [
+    "SASS",
+    "GULP",
+    "HTML",
+    "CSS",
+    "PHP"
+  ],
+  "author": "Daniel Yautibug",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniels36999/daniels36999.github.io/issues"
+  },
+  "homepage": "https://github.com/daniels36999/daniels36999.github.io#readme",
+  "devDependencies": {
+    "cssnano": "^6.0.5",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^10.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser-js": "^5.2.2",
+    "sass": "^1.71.1",
+    "terser": "^5.28.1"
+  }
+}
